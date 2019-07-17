@@ -1,7 +1,17 @@
 import React from 'react'
 
-import { Container } from './styles'
+import { Header, Footer } from 'components'
+
+import { SlideShow, Main, ContactArea } from './components'
 
 export default function Home() {
-  return <Container />
+  return (
+    <>
+      <Header />
+      <SlideShow />
+      <Main />
+      <ContactArea />
+      <Footer />
+    </>
+  )
 }
